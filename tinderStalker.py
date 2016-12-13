@@ -52,6 +52,7 @@ def main() :
 			print " [+] My Tinder profile id is : " + my_id
 		else :
 			print "\n [x] Fail... make sure to have correclty entered the Facebook ID and Facebook Token in credz.json file"
+			exit(1)
 	except requests.exceptions.RequestException as e :
 		print 'Error : ' + e
 
