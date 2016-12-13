@@ -4,15 +4,15 @@
 import requests
 import json
 import sys
-sys.path.append('funcz')
-import Auth
-import Friends
-import Stalker
-import Like
-import Message
-import Location
-import Updates
-import Report
+#sys.path.append('funcz')
+from funcz import Auth
+from funcz import Friends
+from funcz import Stalker
+from funcz import Like
+from funcz import Message
+from funcz import Location
+from funcz import Updates
+from funcz import Report
 
 def main() :
 
