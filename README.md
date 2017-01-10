@@ -25,7 +25,7 @@ You have to insert your Facebook ID and Facebook Token in credz.json.
 
     After cliking "OK" you should have in the response the variable "access_token" (CTRL-F) and this value is the token. 
 
-3. Launch the tool and profit
+3. Launch the tool and fap :
 
         $ python tinderStalker.py
     
