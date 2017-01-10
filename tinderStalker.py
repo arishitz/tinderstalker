@@ -34,8 +34,8 @@ def main() :
 		"Accept-Language": "en",
 		"host": "api.gotinder.com",
 		"Conection": "Keep-Alive",
-		"app-version": 1546,
-		"os-version": 23,
+		"app-version": "1546",
+		"os-version": "23",
 		"platforms": "android"
 	}
 
