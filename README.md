@@ -1,4 +1,15 @@
 # TinderStalker
+```
+  _______ \           _              _____ _        _ _             
+ |__   __/_\         | |            / ____| |      | | |            
+    | |   _ _ __   __| | ___ _ __  | (___ | |_ __ _| | | _____ _ __ 
+    | |  | | '_ \ / _` |/ _ \ '__|  \___ \| __/ _` | | |/ / _ \ '__|
+    | |  | | | | | (_| |  __/ |     ____) | || (_| | |   <  __/ |   
+    |_|  |_|_| |_|\__,_|\___|_|    |_____/ \__\__,_|_|_|\_\___|_|   
+                                                                    by ari_
+```
+
+
 **tinderStalker.py** is a python script for stalking your friends on tinder, it's not a good idea but it's possible.
 
 
