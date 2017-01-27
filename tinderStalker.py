@@ -122,8 +122,10 @@ if __name__ == '__main__' :
 	try :
 		main()
 	except Exception, e :
-		print "Error : " + str(e)
+		print "\Error : " + str(e)
 		raw_input()
+        except KeyboardInterrupt:
+                print('\nHard Quit')
 
 
 

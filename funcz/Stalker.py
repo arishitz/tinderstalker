@@ -55,7 +55,10 @@ def stalker(URL_Tinder_API, header) :
 	distance = friend_data["distance_mi"]
 
 	# Friend's biography
-	bio = friend_data["bio"]
+	try :
+		bio = friend_data["bio"]
+	except :
+		bio = ""
 
 	# Friend's school
 	try :
@@ -82,10 +85,16 @@ def stalker(URL_Tinder_API, header) :
 		instagram = ""
 
 	# Number of common friends
-	common_friend_count = str(friend_data["common_friend_count"])
+	try :
+		common_friend_count = str(friend_data["common_friend_count"])
+	except :
+		common_friend_count = ""
 
 	# Number of common likes
-	common_likes = friend_data["common_likes"]
+	try :
+		common_likes = friend_data["common_likes"]
+	except :
+		common_likes = ""
 
 	# Common interest count
 	try :
